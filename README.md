@@ -22,8 +22,8 @@ A  universal downloader API for social media platforms. Download videos from You
 ## Installation
 
 ```bash
-git clone https://github.com/tenzo-sax/alldl-api.git
-cd alldl-api
+git clone https://github.com/tenzo-sax/all-video-downloader.git
+cd all-video-downloader
 npm install
 ```
 
@@ -225,50 +225,5 @@ MIT License - Free to use and modify.
 
 Credits
 
-Developed with ❤️ by Tenzo
-
----
-
-⭐ Star this repo if you find it useful!
-
-```
-
-## **.gitignore**
-```
-
-node_modules/
-cache/
-config.json
-.env
-.DS_Store
-*.log
-
-```
-
-## **package.json**
-```json
-{
-    "name": "alldl-api",
-    "version": "1.0.0",
-    "description": "All download API for social media platforms",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "dev": "nodemon index.js"
-    },
-    "dependencies": {
-        "express": "^4.18.2",
-        "axios": "^1.6.0",
-        "cheerio": "^1.0.0-rc.12"
-    },
-    "devDependencies": {
-        "nodemon": "^3.0.1"
-    },
-    "author": "Tenzo",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tenzo-sax/alldl-api"
-    }
-}
+Tenzo
 ```
